@@ -1,15 +1,23 @@
+
 {
-  "name": "Мой капитал — пассивный доход",
+  "name": "Мой капитал",
   "short_name": "Мой капитал",
-  "description": "Учёт и планирование пассивного дохода с графиками",
-  "lang": "ru",
-  "start_url": "./index.html",
-  "scope": "./",
+  "id": "/moy-kapital/",
+  "start_url": "/moy-kapital/",
+  "scope": "/moy-kapital/",
   "display": "standalone",
-  "background_color": "#f3f6fc",
-  "theme_color": "#151d48",
+  "background_color": "#ffffff",
+  "theme_color": "#142c36",
   "icons": [
-    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }
